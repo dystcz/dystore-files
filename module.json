@@ -1,0 +1,11 @@
+{
+  "name": "DystoreFiles",
+  "alias": "dystore-files",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": [
+    "Modules\\DystoreFiles\\Providers\\DystoreFilesServiceProvider"
+  ],
+  "files": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dystcz/dystore-files-module",
+  "type": "laravel-module",
+  "description": "Dystore Files",
+  "authors": [
+    {
+      "name": "Dystopia Developers",
+      "email": "dev@dy.st"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\DystoreFiles\\": "src/",
+      "Modules\\DystoreFiles\\Database\\Factories\\": "database/factories/",
+      "Modules\\DystoreFiles\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\DystoreFiles\\Tests\\": "tests/"
+    }
+  }
+}
